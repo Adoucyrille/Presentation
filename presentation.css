@@ -21,6 +21,7 @@ section {
 
 h2 {
     color: #007BFF;
+    text-align: center;
 }
 
 button {
@@ -41,4 +42,36 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+}
+
+img {
+    height: min-content;
+    width: 500px;
+}
+
+
+/* Conteneur image + texte */
+
+#apropos div {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    /* espace entre image et texte */
+}
+
+
+/* Image */
+
+#apropos img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+
+/* Texte */
+
+#apropos p {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 28px;
 }
